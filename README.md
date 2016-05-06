@@ -1,3 +1,4 @@
+Forked to fix a bug running socket.io in React-native - there is no navigator string so we need to catch it
 
 # socket.io-client
 
