@@ -2981,6 +2981,11 @@ var utf8 = _dereq_('utf8');
  *
  * http://ghinda.net/jpeg-blob-ajax-android/
  */
+ 
+ 
+if (navigator && Object.keys(navigator).length == 0) {
+ navigator = Object.assign(navigator, { userAgent: 'react-native' });
+} 
 
 var isAndroid = navigator.userAgent.match(/Android/i);
 
